@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    background-image: url(/assets/img/purple-world-organism-violet-pink-line-2001535-wallhere.com.jpg);
+}
+.textoinicial{
+    margin: 170px;
+    text-align: center;
+    font-family: Pixelify Sans;
+    color: white;
+}
+.botones{
+    margin-top: 20px;
+}
+
+.barra {
+    background-color: rgb(43, 1, 43);
+}
+
+.menu{
+    color: #fff;
+    font-family: Pixelify Sans;
+}
+
+.enla{
+    color: #fff;
+    font-family: Pixelify Sans;
+}
+
+
+.navbar-toggler {
+    background-color: transparent !important; 
+    border-color: white !important; 
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Cambiar el color de las tres rayas a blanco */
+}
+
+
+.btn {
+    border: 3px solid rgb(219, 134, 219); 
+    background-color: #ffffff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    font-weight: bold; 
+    outline: none;
+
+}
+
+.btn.proyectos {
+    background-color: #661277; 
+}
+
+
+.btn.nosotras {
+    background-color: #661277; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .textoinicial{
+        margin: 80px;
+        text-align: center;
+    }
+}
