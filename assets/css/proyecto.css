@@ -25,7 +25,54 @@ body{
 }
 
 
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Cambiar el color de las tres rayas a blanco */
 }
 
+.textoinicial{
+    margin-top: 100px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: Pixelify Sans;
+    color: white;
+}
+
+
+.conteinercard {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+}
+
+.card-body {
+    text-align: center; /* Alineación del contenido en el centro */
+}
+
+.btn {
+    border: 3px solid rgb(219, 134, 219); 
+    background-color: #ffffff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    font-weight: bold; 
+    outline: none;
+
+}
+
+.btn.proyectos {
+    background-color: #661277; 
+}
+
+
+.btn.nosotras {
+    background-color: #661277; 
+}
